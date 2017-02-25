@@ -184,6 +184,7 @@ premailer-rails is released under the MIT license. See the [license file].
 [premailer]:    https://github.com/premailer/premailer
 [actionmailer]: https://github.com/rails/rails/tree/master/actionmailer
 [nokogiri]:     https://github.com/sparklemotion/nokogiri
+[nokogumbo]:     https://github.com/rubys/nokogumbo
 [hpricot]:      https://github.com/hpricot/hpricot
 
 [premailer documentation]: http://rubydoc.info/gems/premailer/1.7.3/Premailer:initialize
