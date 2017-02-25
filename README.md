@@ -75,7 +75,7 @@ Simply add the gem to your `Gemfile`:
 gem 'premailer-rails'
 ```
 
-premailer-rails requires either [nokogiri] or [nokogumbo] ([hpricot] is over since premailer 1.9.2). It doesn't list them as
+premailer-rails requires either [nokogiri] or [nokogumbo] (should note that [hpricot] is over since premailer 1.9.2). It doesn't list them as
 a dependency so you can choose which one to use. I suggest you to go with nokogiri. Add either one to your `Gemfile`:
 
 ```ruby
