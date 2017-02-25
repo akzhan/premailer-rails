@@ -75,20 +75,19 @@ Simply add the gem to your `Gemfile`:
 gem 'premailer-rails'
 ```
 
-premailer-rails requires either [nokogiri] or [hpricot]. It doesn't list them as
-a dependency so you can choose which one to use. Since hpricot is no longer
-maintained, I suggest you to go with nokogiri. Add either one to your `Gemfile`:
+premailer-rails requires either [nokogiri] or [nokogumbo] ([hpricot] is over since premailer 1.9.2). It doesn't list them as
+a dependency so you can choose which one to use. I suggest you to go with nokogiri. Add either one to your `Gemfile`:
 
 ```ruby
 gem 'nokogiri'
 # or
-gem 'hpricot'
+gem 'nokogumbo'
 ```
 
-If both gems are loaded for some reason, premailer chooses hpricot.
+If both gems are loaded for some reason, premailer chooses nokogiri (hpricot before 1.8 release).
 
 You can also explicitly configure the apapter as documented
-[here](https://github.com/premailer/premailer#adapters).
+[here](https://github.com/premailer/premailer#adapters). You may use `:nokogiri_fast` adapter, for example.
 
 ## Configuration
 
